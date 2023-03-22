@@ -11,5 +11,5 @@ if inputShut == 'yes':
     print("Locking your PC!")
     lock_screen()
 else:
-    print("Ok!")
+    print("Leaving the program!")
     exit()
