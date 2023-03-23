@@ -18,7 +18,6 @@ inputShut = input("Do you wanna lock your pc ? (yes/no): ")
 
 if inputShut == 'yes':
     showNotification()
-    sleep(1)
     lock_screen()
 else:
     print("Leaving the program!")
